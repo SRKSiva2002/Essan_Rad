@@ -7,6 +7,7 @@ public class OrdersPageTest {
 	public void orderModule()
 	{
 		System.out.println("--Test script 2--");
+		System.out.println("hi");
 	}
 	
 
