@@ -1,7 +1,12 @@
 package test;
 
 
-import static org.testng.Assert.*;
+import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertFalse;
+import static org.testng.Assert.assertNotNull;
+import static org.testng.Assert.assertSame;
+import static org.testng.Assert.fail;
+
 import org.testng.annotations.Test;
 
 import com.Essan_Rad.GenericUtils.BaseClass;
