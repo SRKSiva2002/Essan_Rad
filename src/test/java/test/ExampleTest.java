@@ -1,6 +1,5 @@
 package test;
 
-
 import org.testng.annotations.Test;
 
 import com.Essan_Rad.GenericUtils.BaseClass;

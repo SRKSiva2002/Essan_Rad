@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="test.HardAssertionTest">
+        <methods>
+          <include name="hardAssert2"/>
+          <include name="configureBeforeSuite"/>
+          <include name="configureAfterSuite"/>
+          <include name="hardAssert5"/>
+          <include name="hardAssert3"/>
+          <include name="hardAssert1"/>
+          <include name="configureAfterClass"/>
+          <include name="configureBeforeClass"/>
+        </methods>
+      </class> <!-- test.HardAssertionTest -->
+      <class name="test.TestNG_PracticeTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- test.TestNG_PracticeTest -->
+      <class name="test.SampleTest">
+        <methods>
+          <include name="configureBeforeSuite"/>
+          <include name="configureAfterSuite"/>
+          <include name="configureAfterClass"/>
+          <include name="configureBeforeClass"/>
+          <include name="sample3"/>
+        </methods>
+      </class> <!-- test.SampleTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

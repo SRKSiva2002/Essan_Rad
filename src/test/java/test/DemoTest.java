@@ -1,13 +1,12 @@
 package test;
 
-
 import org.testng.annotations.Test;
 
 import com.Essan_Rad.GenericUtils.BaseClass;
 
 public class DemoTest extends BaseClass {
 
-	@Test(groups = {"smoke", "regression"}, retryAnalyzer = com.Essan_Rad.GenericUtils.RetryImplementationClass.class)
+	@Test(groups = {"smoke", "regression"})
 	public void demo3() {
 		System.out.println("---DEMO 3---");
 	}
