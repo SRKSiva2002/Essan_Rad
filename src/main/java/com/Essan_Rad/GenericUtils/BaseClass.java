@@ -41,7 +41,7 @@ public class BaseClass {
 		}else {
 			System.out.println("Invalid Browser");
 		}
-		iDriver=driver;
+		//iDriver=driver;
 		wLib.maximizeTheBrowser(driver);
 		wLib.implicitWaitByFindElement(driver, 10);
 	}
