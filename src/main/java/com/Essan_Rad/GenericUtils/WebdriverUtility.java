@@ -1,6 +1,5 @@
 package com.Essan_Rad.GenericUtils;
 
-import java.awt.AWTException;
 import java.awt.Robot;
 import java.awt.event.KeyEvent;
 import java.io.File;
@@ -22,8 +21,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import com.google.common.io.Files;
-import com.google.protobuf.ByteString.Output;
 
 /**
  * This class consists of methods to handle webdriver and webelements
