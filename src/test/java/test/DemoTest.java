@@ -9,6 +9,7 @@ public class DemoTest {
 	@Test(groups = {"smoke", "regression"})
 	public void demo3() {
 		System.out.println("---DEMO 3---");
+		
 	}
 	
 	@Test(groups = "smoke")
