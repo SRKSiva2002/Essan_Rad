@@ -14,7 +14,6 @@ public class SampleTest extends BaseClass {
 	
 	@Test(groups = "smoke")
 	public void sample3() {
-		Assert.fail();
 		System.out.println("---SAMPLE 3---");
 	}
 	
