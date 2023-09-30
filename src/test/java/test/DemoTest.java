@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 import com.Essan_Rad.GenericUtils.BaseClass;
 
-public class DemoTest {
+public class DemoTest extends BaseClass {
 
 	@Test(groups = {"smoke", "regression"})
 	public void demo3() {
